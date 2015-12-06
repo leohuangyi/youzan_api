@@ -1,6 +1,6 @@
 {
   "name": "youzan-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "'有赞API Node.js版' ",
   "main": "index.js",
   "scripts": {

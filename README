@@ -1,11 +1,8 @@
-#api for www.youzan.com
+# api for www.youzan.com
 
-##use example
+## use example
 ```
-var apiClient = require('youzan-api')();
-
-apiClient.appId = 'xxxxxxxxx';
-apiClient.appSecret = 'xxxxxxxxx';
+var apiClient = require('youzan-api')('appId', 'appSecret');
 
 var method = 'kdt.item.get';
 var params = {
