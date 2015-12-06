@@ -1,0 +1,24 @@
+#api for www.youzan.com
+
+##use example
+```
+var apiClient = require('youzan-api')();
+
+apiClient.appId = 'xxxxxxxxx';
+apiClient.appSecret = 'xxxxxxxxx';
+
+var method = 'kdt.item.get';
+var params = {
+    alias: '3enzneynzr5nn'
+};
+
+
+apiClient.get(method, params, function(res){
+    console.log(res);
+});
+/*
+apiClient.get(method, params, files, function(res){
+    console.log(res);
+});
+*/
+````

@@ -1,0 +1,16 @@
+{
+  "name": "youzan-api",
+  "version": "1.0.0",
+  "description": "'有赞API Node.js版' ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "date-formatter": "^0.1.0",
+    "request": "^2.67.0"
+  }
+}
